@@ -1,3 +1,3 @@
 setTimeout(() => {
-  document.getElementById("heading").style.color = "red";
+  document.getElementById("heading").style.color = "blue";
 }, 5000);
