@@ -174,3 +174,56 @@ function getBook(id) {
 
 // const getYear = (str) => str.split("-")[0];
 // console.log(getYear(publicationDate));
+
+// Optional Chaining
+// const person = {
+//   name: "John",
+//   address: {
+//     city: "New York",
+//   },
+// };
+
+// console.log(person?.address?.city); // Output: 'New York'
+
+// const employee = {};
+
+// console.log(employee?.address?.city); // Output: undefined
+
+// Array Map
+
+// let x = [1, 2, 3, 4, 5];
+
+// let newNum = x.map((num) => num * 2);
+// console.log(newNum);
+
+// const books = getBooks();
+// const titles = books.map((book) => book.title);
+// console.log(titles);
+
+const books = getBooks();
+// const titles = books.map((book) => {
+//   return {
+//     title: book.title,
+//     author: book.author,
+//   };
+// });
+// console.log(titles);
+
+// Array Filter
+
+// const longBooks = books.filter((book) => book.pages < 500);
+// console.log(longBooks);
+
+// multiple filter
+// const longBooks = books
+//   .filter((book) => book.pages < 500)
+//   .filter((book) => book.hasMovieAdaptation);
+// console.log(longBooks);
+
+// Filter with Map
+// const longBooks = books
+//   .filter((book) => book.pages < 500)
+//   .map((book) => book.title);
+// console.log(longBooks);
+
+// Array Reduce
