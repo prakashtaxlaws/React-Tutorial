@@ -227,3 +227,15 @@ const books = getBooks();
 // console.log(longBooks);
 
 // Array Reduce
+
+// todo
+// Array Sort
+
+// let x = [3, 7, 1, 9];
+
+// let sorted = x.sort((a, b) => a - b);
+// console.log(sorted);
+
+fetch("https://jsonplaceholder.typicode.com/todos")
+  .then((res) => res.json())
+  .then((data) => console.log(data));
