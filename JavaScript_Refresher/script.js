@@ -236,6 +236,22 @@ const books = getBooks();
 // let sorted = x.sort((a, b) => a - b);
 // console.log(sorted);
 
-fetch("https://jsonplaceholder.typicode.com/todos")
-  .then((res) => res.json())
-  .then((data) => console.log(data));
+// Promise
+
+// fetch("https://jsonplaceholder.typicode.com/todos")
+//   .then((res) => res.json())
+//   .then((data) => console.log(data));
+
+// console.log("Prakash");
+
+// Using Async await
+//
+
+// async function getTodos() {
+//   let res = await fetch("https://jsonplaceholder.typicode.com/todos");
+//   let data = await res.json();
+//   console.log(data);
+// }
+// getTodos();
+
+// console.log("Prakash");
