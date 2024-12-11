@@ -1,12 +1,17 @@
 import React from "react";
-import ReactDOM from "react-dom/client";
 import Pizza from "./Pizza"
+import Header from "./Header";
+import Footer from "./Footer";
+import Menu from "./Menu";
 
 function App() {
   return (
     <>
-      <h1>Hello React</h1>
-      <Pizza />
+    <div className="menu">
+      <Header />
+      <Menu />
+      <Footer />
+      </div>
     </>
   );
 }
