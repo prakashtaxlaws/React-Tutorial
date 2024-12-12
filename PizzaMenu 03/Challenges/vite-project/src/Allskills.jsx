@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 
 export default function Allskills(props) {
     console.log(props)
@@ -8,3 +9,4 @@ export default function Allskills(props) {
     </>
   )
 }
+
