@@ -5,7 +5,8 @@ export default function Allskills(props) {
     console.log(props)
   return (
     <>
-    <p>{props.skills} {props.emoji}</p>
+    <p>{props.skills} {props.level === "beginner" && "👼"} {props.level === "advanced" && "💪"}{props.level === "intermediate" && "😕"}</p>
+    <p></p>
     </>
   )
 }
